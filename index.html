@@ -23,7 +23,7 @@
 <body>
 
   <section class="titlea">
-    <div class="container">
+    <div class="container-fluid">
 
       <!-- Nav Bar -->
       <nav class="navplease navbar navbar-expand-lg navbar-dark">
@@ -73,7 +73,7 @@
     <div class="row">
 
       <div class="easy col-lg-4">
-    <i class="fas fa-check-circle fa-3x"></i>
+        <i class="fas fa-check-circle fa-3x"></i>
         <h3> Easy to use.</h3>
         <p>Swipe, click... You are good to go.</p>
       </div>
@@ -95,33 +95,55 @@
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
+  <section class="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-pause="hover">
+      <!-- <ol class="carousel-indicators">
+        <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+        <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+      </ol> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to take hours to decide where to eat. It feels like I am chosen by the food.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">This app takes my food adventure to the next level!</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item" style="height: 300px;">
+            <h2>More to come...!</h2>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
 
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+      </a>
+    </div>
 
   </section>
 
 
   <!-- Press -->
 
-  <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+  <section class="press">
+    <img class="press-img" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-img" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-img" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
 
   <!-- Pricing -->
 
-  <section id="pricing">
+  <section class="pricing">
 
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
